@@ -15,7 +15,7 @@ use \App\Http\Controllers\DomainController;
 */
 
 Route::get('/', function () {
-    return view('register');
+    return view('home');
 });
 
 Route::get('/register', [DomainController::class, 'register']);

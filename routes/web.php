@@ -18,5 +18,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/register', [DomainController::class, 'register']);
+Route::get('/register', [DomainController::class, 'create'])->name('register');
+
+Route::post('/store', [DomainController::class, 'store'])->name('store');
 // Route::get('/register', '\App\Http\Controllers\DomainController@register');

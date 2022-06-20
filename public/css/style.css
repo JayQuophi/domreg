@@ -1,0 +1,17 @@
+.main{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.card{
+    border: 0;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.form-error{
+    color: red;
+    font-size: smaller;
+    font-weight: bold;
+}
